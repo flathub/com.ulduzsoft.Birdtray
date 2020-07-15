@@ -22,7 +22,7 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DOPT_THUNDERBIRD_CMDLINE=/usr/bin/flatpak-spawn --host org.mozilla.Thunderbird"
+                "-DOPT_THUNDERBIRD_CMDLINE=/usr/bin/flatpak-spawn --host flatpak run org.mozilla.Thunderbird"
             ],
             "sources": [
                 {
