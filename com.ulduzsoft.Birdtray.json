@@ -12,8 +12,7 @@
         "--filesystem=~/.var/app/org.mozilla.Thunderbird/.thunderbird",
         "--talk-name=org.freedesktop.Flatpak",
         "--talk-name=org.freedesktop.Notifications",
-        "--talk-name=org.kde.StatusNotifierWatcher",
-        "--own-name=org.kde.StatusNotifierItem-2-2"
+        "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
         {
