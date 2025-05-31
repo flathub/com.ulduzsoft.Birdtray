@@ -1,7 +1,7 @@
 {
     "app-id": "com.ulduzsoft.Birdtray",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "birdtray",
     "finish-args": [
@@ -26,7 +26,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/gyunaev/birdtray.git",
-                    "commit": "28bb44b9c10d4879d795392913c30c25dde4c3e6"
+                    "commit": "10d7bd9e0ba6babfdb3c42b5664a9453124989a5"
                 },
                 {
                     "type": "patch",
