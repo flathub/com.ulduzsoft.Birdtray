@@ -10,7 +10,8 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--filesystem=~/.thunderbird",
-        "--filesystem=~/.var/app/org.mozilla.Thunderbird/.thunderbird",
+        "--filesystem=~/.var/app/org.mozilla.thunderbird/.thunderbird",
+        "--filesystem=~/.var/app/org.mozilla.thunderbird_esr/.thunderbird",
         "--talk-name=org.freedesktop.Flatpak",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.kde.StatusNotifierWatcher"
