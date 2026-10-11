@@ -5,7 +5,7 @@
        <li>Has configurable "New Email" functionality, allowing pre-configured email templates.</li>
      </ul>
 +    <p>
-+      The feature to "Start Thunderbird when Birdtray starts" needs the flathub thunderbird installed by default. The default thunderbird directory is "~/.var/app/org.mozilla.Thunderbird/.thunderbird".
++      The feature to "Start Thunderbird when Birdtray starts" needs the flathub thunderbird installed by default. The default thunderbird directory is "~/.var/app/org.mozilla.thunderbird/.thunderbird".
 +    </p>
    </description>
  

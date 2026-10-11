@@ -9,7 +9,8 @@
         "--socket=x11",
         "--device=dri",
         "--filesystem=~/.thunderbird",
-        "--filesystem=~/.var/app/org.mozilla.Thunderbird/.thunderbird",
+        "--filesystem=~/.var/app/org.mozilla.thunderbird/.thunderbird",
+        "--filesystem=~/.var/app/org.mozilla.thunderbird_esr/.thunderbird",
         "--talk-name=org.freedesktop.Flatpak",
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=org.kde.StatusNotifierWatcher"
@@ -20,7 +21,7 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DOPT_THUNDERBIRD_CMDLINE=/usr/bin/flatpak-spawn --host flatpak run org.mozilla.Thunderbird"
+                "-DOPT_THUNDERBIRD_CMDLINE=/usr/bin/flatpak-spawn --host flatpak run org.mozilla.thunderbird"
             ],
             "sources": [
                 {
